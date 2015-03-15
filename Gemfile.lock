@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/madlep/webmachine-ruby.git
+  revision: d4c05b54d8e55a1306abea41db5df2728698f3fc
+  branch: rack_mapped
+  specs:
+    webmachine (1.3.1)
+      as-notifications (~> 1.0)
+      i18n (>= 0.4.0)
+      multi_json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    as-notifications (1.0.1)
+    coderay (1.1.0)
+    i18n (0.7.0)
+    kgio (2.9.3)
+    method_source (0.8.2)
+    multi_json (1.11.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.0)
+    raindrops (0.13.0)
+    slop (3.6.0)
+    unicorn (4.8.3)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry (~> 0.10.1)
+  rack
+  unicorn
+  webmachine!
